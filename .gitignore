@@ -1,0 +1,7 @@
+# Local Vercel links and environment files are machine/account-specific.
+.vercel/
+.env
+.env.*
+
+# Local server output
+*.log

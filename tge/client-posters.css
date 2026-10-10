@@ -1,0 +1,68 @@
+/* Client artwork is HTML/CSS over unchanged original source photographs. */
+/* Preserve the captured sticky container and foreground scale/reveal. */
+#clients.tge-client-posters .framer-1lcion6{opacity:1;pointer-events:none}
+#clients .framer-lrkxhk-container>:not(.cp-backdrops){visibility:hidden}
+#clients .tge-poster-host{overflow:hidden!important}
+#clients .tge-poster-host>.framer-1tyik2n-container{visibility:hidden}
+.cp-backdrops{position:absolute;inset:0;overflow:hidden;background:#17121d;pointer-events:none}
+.cp-backdrops:after{content:"";position:absolute;inset:0;background:#0006;z-index:10}
+.cp-backdrop-layer{inset:0!important;opacity:0;transform:scale(1.2)!important;filter:blur(10px);will-change:opacity}
+.cp-backdrop-layer .cp-words,.cp-backdrop-layer .cp-photo,.cp-backdrop-layer .cp-logo{transform:none!important}
+#clients .tge-poster-host>.tge-client-poster{top:-150px;bottom:-150px;transform:translate3d(0,var(--cp-parallax,0px),0);will-change:transform}
+.tge-client-poster{--cp-y:0px;--cp-x:0px;position:absolute;inset:0;overflow:hidden;background:#f2e957;color:#17271f;font-family:Manrope,Arial,sans-serif;isolation:isolate;pointer-events:none}
+.cp-type{position:absolute;top:7%;left:6%;font-size:clamp(10px,1vw,15px);font-weight:600;letter-spacing:.15em;z-index:4}
+.cp-words{position:absolute;left:6%;top:24%;z-index:3;transform:translate3d(var(--cp-x),var(--cp-y),0);max-width:88%;line-height:.94}
+.cp-words strong{font-size:clamp(48px,8vw,140px);font-weight:600;letter-spacing:-.075em;display:block}
+.cp-words>span{font-size:clamp(16px,2vw,34px);letter-spacing:.12em;display:block;margin-top:22px;font-weight:500}
+.cp-photo{position:absolute;right:2%;bottom:0;width:48%;height:85%;z-index:2;transform:translate3d(0,calc(var(--cp-y)*-.35),0)}
+.cp-photo img{width:100%;height:100%;display:block;object-fit:contain;object-position:center bottom}
+[data-kind="frenchify"] .cp-words{top:34%;max-width:48%}
+[data-kind="frenchify"] .cp-words strong{font-size:clamp(40px,6.5vw,116px)}
+[data-kind="frenchify"] .cp-photo{height:88%;width:49%;right:0}
+[data-kind="axis"]{background:#edf0eb;color:#154249}
+[data-kind="axis"] .cp-words{top:22%;max-width:40%}
+[data-kind="axis"] .cp-photo{right:5%;bottom:8%;width:54%;height:73%;box-shadow:0 28px 60px #10273026}
+[data-kind="axis"] .cp-photo img{object-fit:contain;object-position:center;background:#d3dce0}
+.cp-logo{position:absolute;left:6%;bottom:9%;width:22%;max-height:65px;object-fit:contain;object-position:left;z-index:4}
+[data-kind="axis"] .cp-logo{left:auto;right:7%;bottom:26%;width:44%;max-height:280px;object-position:center;transform:translateY(calc(var(--cp-y)*-.4))}
+[data-kind="axis"]:after{content:"";position:absolute;right:4%;top:13%;width:49%;height:73%;border:1px solid #9aaea4;border-radius:50% 50% 3px 3px;z-index:1}
+[data-kind="music"]{background:#23192e;color:#efe4cb}
+[data-kind="music"] .cp-words{top:25%;max-width:47%}
+[data-kind="music"] .cp-words strong{font-size:clamp(46px,7.2vw,130px)}
+[data-kind="music"] .cp-photo{right:4%;bottom:0;width:46%;height:95%}
+[data-kind="rma"]{background:#dce9ec;color:#1a384a}
+[data-kind="rma"] .cp-words{top:28%;max-width:65%}
+[data-kind="rma"] .cp-words strong{font-size:clamp(80px,17vw,270px);letter-spacing:-.045em;font-weight:400}
+[data-kind="rma"] .cp-words>span{max-width:460px;line-height:1.35}
+[data-kind="rma"] .cp-words{max-width:46%;top:29%}
+[data-kind="rma"] .cp-words strong{font-size:clamp(70px,12vw,180px)}
+[data-kind="rma"] .cp-words>span{font-size:clamp(16px,1.7vw,27px);letter-spacing:.04em}
+[data-kind="rma"] .cp-photo{right:5%;width:42%;height:62%;bottom:12%;border:1px solid #91a5ac;background:#c5d6db}
+.cp-emblem{position:absolute;right:-3%;bottom:-26%;font-size:clamp(320px,55vw,800px);line-height:1;font-weight:300;color:transparent;-webkit-text-stroke:1px #56778355;transform:translateY(calc(var(--cp-y)*-.5));z-index:0}
+[data-kind="drsw"]{background:#ece6dc;color:#302a22}
+[data-kind="drsw"] .cp-words{top:24%;max-width:40%}
+[data-kind="drsw"] .cp-photo{right:5%;bottom:8%;width:54%;height:76%}
+[data-kind="drsw"] .cp-photo img{object-fit:contain;object-position:center;background:#d3cabd}
+@media(max-width:809px){.cp-type{font-size:9px;top:6%}.cp-words{top:19%!important;left:6%}.cp-words strong{font-size:clamp(33px,9vw,72px)!important}.cp-words>span{font-size:11px;margin-top:12px;letter-spacing:.09em}.cp-photo{height:68%!important;max-width:54%;right:1%!important}.cp-logo{bottom:12%;width:30%}[data-kind="rma"] .cp-words{max-width:80%}[data-kind="rma"] .cp-words strong{font-size:25vw!important}[data-kind="axis"] .cp-photo,[data-kind="drsw"] .cp-photo{bottom:6%;height:63%!important}.cp-emblem{font-size:80vw;bottom:-17%}}
+@media(prefers-reduced-motion:reduce){#clients.tge-client-posters .framer-vuf032{transition:none}.cp-words,.cp-photo,.cp-emblem{transform:none!important}}
+@media(max-width:809px){[data-kind="axis"] .cp-logo{width:43%;bottom:23%;right:7%;max-height:130px}[data-kind="rma"] .cp-words{max-width:44%}[data-kind="rma"] .cp-words strong{font-size:18vw!important}[data-kind="rma"] .cp-words>span{font-size:10px}[data-kind="rma"] .cp-photo{height:55%!important;bottom:11%}}
+@media(max-width:809px){
+ #clients .framer-1qd9vn7{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start!important}
+ #clients .framer-1312ide,#clients .framer-14nq4t0{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:5px!important;min-width:0;width:100%!important}
+ #clients .framer-1qd9vn7 [data-framer-component-type="RichTextContainer"]{width:100%!important;white-space:normal!important}
+ #clients .framer-1qd9vn7 .framer-text{white-space:normal!important;font-size:10px!important;line-height:1.4!important}
+ [data-kind="music"] .cp-photo{width:70%;max-width:none;height:82%!important;right:0!important}
+ [data-kind="music"] .cp-words{top:13%!important}
+}
+
+@media(prefers-reduced-motion:reduce){#clients .tge-poster-host>.tge-client-poster{top:0;bottom:0;transform:none!important}.cp-backdrop-layer{will-change:auto}}
+/* Use the actual small viewport, not Framer's captured page-height fallback. */
+#clients.tge-client-posters{--framer-viewport-height:100svh}
+#clients.tge-client-posters .framer-1sphto1{height:100svh;min-height:0}
+#clients.tge-client-posters .framer-xd5mhb{height:65svh}
+@media(max-width:809px){#clients.tge-client-posters .framer-xd5mhb{height:45svh}}
+
+/* Lay out faces against the visible frame; overscan belongs to the moving canvas. */
+.cp-composition{position:absolute;inset:150px 0}
+.cp-backdrop-layer .cp-composition{inset:0}
+@media(prefers-reduced-motion:reduce){.cp-composition{inset:0}}

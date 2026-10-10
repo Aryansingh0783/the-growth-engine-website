@@ -1,0 +1,22 @@
+/* The original Framer footer owns layout and motion. These styles only adapt
+   brand typography, colour and the replacement identity/copyright content. */
+footer.framer-anvll{background:#151316!important;color:#f3f0f2}
+footer .tgen-footer-brand{display:flex;align-items:center;gap:12px;width:fit-content;color:#f3f0f2;text-decoration:none;font-size:12px;font-weight:700;line-height:1.1;letter-spacing:-.025em}
+footer .tgen-footer-brand img{display:block;object-fit:contain;flex-shrink:0}
+footer .tgen-footer-copyright{margin:0;color:#b8b2bc;font-size:11px;line-height:1.5;letter-spacing:-.02em}
+footer .framer-1i6kln3{aspect-ratio:1000/485!important;height:auto!important}
+footer .tgen-footer-wordmark{position:relative;width:1000px;height:485px;font-family:Manrope,sans-serif;color:#f3f0f2}
+footer .tgen-footer-wordmark span{position:absolute;display:block;white-space:nowrap;letter-spacing:-.065em!important;font-family:Manrope,sans-serif!important;color:#f3f0f2!important}
+footer .tgen-footer-the{left:130px;top:55px;font-size:88px!important;line-height:1.1!important;font-weight:500!important}
+footer .tgen-footer-growth{left:0;top:90px;font-size:310px!important;line-height:.9!important;font-weight:650!important}
+footer .tgen-footer-engine{right:10px;top:355px;font-size:78px!important;line-height:1.1!important;font-weight:500!important}
+footer .framer-1fnwv2y .framer-text{font-family:Manrope,sans-serif!important;font-weight:450!important;font-size:clamp(17px,2.6vw,38px)!important;line-height:1.2!important;letter-spacing:-.045em!important;color:#c1a4d2!important}
+footer .framer-1i0le8w .framer-text{color:#b8b2bc!important;font-size:11px!important;letter-spacing:.025em!important}
+@media(min-width:810px){footer .framer-1i0le8w{transform:translateY(-14px)!important}}
+footer .framer-1t9vli5 a,footer .framer-rlcu5j a{color:#c2bbc7!important}
+footer .framer-10u0qfj .framer-text{color:#a59cae!important}
+@media(max-width:809px){footer .tgen-footer-copyright{font-size:10px}footer .framer-1fnwv2y .framer-text{font-size:clamp(15px,4vw,25px)!important}}
+@media(prefers-reduced-motion:reduce){footer .framer-1i6kln3,footer .framer-1fnwv2y,footer .framer-1fnwv2y span{opacity:1!important;filter:none!important;transform:none!important}}
+/* Preserve the floating control's authored appearance with native button semantics. */
+button.framer-Jrkor{appearance:none;border:0;padding:0;margin:0;background:transparent;cursor:pointer}
+button.framer-Jrkor:focus-visible{outline:2px solid #9b70b3;outline-offset:-3px}

@@ -1,0 +1,39 @@
+/* Only About content fitting; shared header, menu, footer and motion remain native. */
+/* Keep KP Singh's turban and face inside the wide client-gallery crop. */
+body[data-tge-about] .framer-E2waI .framer-1mz3c2v img{object-position:50% 15%!important}
+/* Inset the process step labels from the outer grid rule. */
+body[data-tge-about] .framer-XYeJV .framer-17zkfow,
+body[data-tge-about] .framer-E2waI .framer-1pqy74z{margin-right:24px}
+/* The approach timeline is text-only; reclaim the removed artwork column. */
+body[data-tge-about] .framer-MFdMn.framer-o61wcw{grid-template-columns:minmax(0,1fr)!important}
+.framer-E2waI .framer-104wp3d{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.framer-E2waI .framer-1vylnqx-container,.framer-E2waI .framer-fywxl2-container,.framer-E2waI .framer-650wsv-container{width:100%!important;min-width:0!important}
+.framer-E2waI .framer-1ow0mpy-container{display:none!important}
+.framer-E2waI .framer-s650ob{right:0!important;max-width:100%}
+.framer-E2waI .framer-s650ob .framer-text{font-size:24px!important}
+.framer-E2waI .framer-1yentyf-container{display:none!important}
+.framer-E2waI .framer-8qyx7b,.framer-E2waI .framer-1shgove,.framer-E2waI .framer-hy2duq{color:#c1a4d2}
+.framer-E2waI .framer-104wp3d img{object-position:50% 35%!important}
+/* Client results: keep faces inside the native parallax frame and use the real Axis mark. */
+.framer-E2waI .framer-wuxeyr-container img,.framer-E2waI .framer-2u13p-container img{object-position:50% 0%!important}
+.framer-E2waI .framer-9hur8z{background:#f1eee9!important}
+.framer-E2waI .framer-wd6x1q-container img{object-fit:contain!important;width:76%!important;max-width:300px;left:50%!important;translate:-50% 0}
+.framer-E2waI .framer-wuxeyr-container img,.framer-E2waI .framer-2u13p-container img,.framer-E2waI .framer-wd6x1q-container img{scale:1;transition:scale .7s cubic-bezier(.16,1,.3,1)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.framer-E2waI .framer-naj9uv:hover img,.framer-E2waI .framer-12d2r20:hover img,.framer-E2waI .framer-9hur8z:hover img{scale:1.035}}
+.framer-E2waI .framer-9hur8z .framer-text{color:#202445!important;--framer-text-color:#202445!important}
+.framer-E2waI [data-framer-background-image-wrapper]:has(>img[src="/tge/axis-logo.png"]){background:#f1eee9}
+.framer-E2waI [data-framer-background-image-wrapper]>img[src="/tge/axis-logo.png"]{object-fit:contain!important;padding:12%!important;box-sizing:border-box}
+.framer-E2waI .framer-NWp2c [data-framer-name="Social"]{display:none!important}
+/* Remove the empty translated-label slot after the Japanese copy is removed. */
+body[data-tge-about] .framer-yw6voa:has(>p:empty){display:none!important}
+.framer-E2waI .framer-1rzkiwh{white-space:normal!important}
+.framer-E2waI .framer-12na6xa .framer-1dt5xld{align-self:center!important}
+.tge-native-contact-copy{width:100%;max-width:700px}
+.tge-native-contact-copy p{color:#f3f0f2;font-size:clamp(18px,2vw,28px);line-height:1.45;letter-spacing:-.035em;margin:0 0 36px}
+.tge-native-contact-cta{display:flex;justify-content:space-between;align-items:center;padding:24px 28px;background:#f3f0f2;color:#151316;text-decoration:none;font-size:12px;transition:background .3s,color .3s}
+.tge-native-contact-cta:hover{background:#c1a4d2}
+/* Template availability, unverified working hours, placeholder socials and local clock. */
+.framer-E2waI .framer-12na6xa [data-framer-name="Availability"],.framer-E2waI .framer-12na6xa .framer-1egx04e-container{display:none!important}
+.framer-E2waI .framer-A0uyS,.framer-E2waI .framer-12na6xa [data-framer-name="Social"],.framer-E2waI .framer-12na6xa [data-framer-name="Local time"],body[data-tge-about] .framer-YWa4P{display:none!important}
+@media(min-width:810px){.framer-E2waI .framer-104wp3d{display:grid!important}}
+@media(max-width:809px){.framer-E2waI .framer-104wp3d{grid-template-columns:1fr!important}.framer-E2waI .framer-1vylnqx-container,.framer-E2waI .framer-fywxl2-container,.framer-E2waI .framer-650wsv-container{height:auto!important}.tge-native-contact-copy p{font-size:20px}}

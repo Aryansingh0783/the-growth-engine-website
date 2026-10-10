@@ -1,0 +1,45 @@
+@font-face{font-family:Manrope;src:url('/tge/manrope.woff2') format('woff2');font-style:normal;font-weight:200 800;font-display:swap}
+:root{color-scheme:light;--tge-coal:#151316;--tge-plum:#291d2e;--tge-paper:#f3f0f2;--tge-lavender:#c1a4d2}
+body{background:var(--tge-paper)!important;--token-7d692461-fc25-4666-b920-02b5d4b7fd88:#a874c0!important;--token-5cf1b248-1ef3-4269-82ff-9245b25ee4c1:#f3f0f2!important;--token-8859cc18-bf32-49ad-90c6-4d403800b6bf:#151316!important}
+body,p,h1,h2,h3,h4,h5,a,button,input,textarea,select,summary,.framer-text{font-family:Manrope,sans-serif!important}
+button,a,summary,input,textarea{touch-action:manipulation}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #a874c0!important;outline-offset:6px}
+.tgen-section-host{width:100%;isolation:isolate}
+.framer-8syexn{background:#f3f0f2!important}
+.framer-1enr2k3{background:#151316!important}
+.framer-1rlysu4:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,rgba(74,40,87,.44),transparent 65%);mix-blend-mode:screen}
+.framer-19vl96s .framer-text{font-weight:650!important;font-size:240px!important;letter-spacing:-.065em!important;line-height:1em!important}
+.framer-19vl96s{overflow:visible!important}
+.framer-1a6v02r .framer-text{font-size:clamp(18px,2.8vw,38px)!important;line-height:1.15!important;letter-spacing:-.045em!important;font-weight:450!important;color:#c1a4d2!important}
+.framer-1a6v02r{max-width:100%;width:fit-content!important}
+.framer-18jn4ic{overflow:visible!important}
+.framer-epktt4 .framer-text{font-size:11px!important;letter-spacing:.07em!important}
+.framer-1fs3g9x{justify-content:flex-start!important}
+.framer-119kcst .framer-text{line-height:1.55!important}
+.tgen-brandmark{display:flex;gap:10px;align-items:center;justify-content:flex-start;min-width:150px;height:36px;flex-shrink:0;color:#291d2e}
+.tgen-brandmark img{display:block;width:30px;height:36px;object-fit:contain}
+.tgen-brandmark b{font-family:Manrope,sans-serif;font-size:12px;line-height:1.05;letter-spacing:-.025em;font-weight:750}
+.framer-j2JSb .tgen-brandmark{color:#f3f0f2}
+.framer-8oij8x .framer-text{font-weight:750!important;letter-spacing:-.055em!important}
+.framer-12ees13{background:transparent!important}
+.framer-12ees13 .framer-text{font-size:9px!important;font-weight:650!important;color:#60446f!important;letter-spacing:.025em!important}
+.framer-1dqw21x,.framer-epefxb,.framer-vwyx9i,.framer-1xdre6a{display:none!important}
+.framer-e3sqjn .framer-FH20t,.framer-e3sqjn .framer-1ym7bkv{display:none!important}
+a[href*="//x.com"],a[href*="//instagram.com"],a[href*="//dribbble.com"],a[href*="//behance.net"]{display:none!important}
+.framer-1i6kln3 .framer-text{font-weight:650!important;letter-spacing:-.065em!important}
+.framer-1i6kln3{overflow:visible!important}
+.framer-1qgcq9c .framer-text{opacity:.55;font-size:11px!important}
+html{scroll-padding-top:75px}
+@media(max-width:809px){.framer-12ees13{display:none!important}.framer-1enr2k3{min-height:650px!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.framer-18jn4ic:not(:first-of-type){visibility:hidden!important}[data-framer-appear-id]{opacity:1!important;transform:none!important;filter:none!important}}
+
+/* Native Hamburger semantics; keep Framer layout and animated bars. */
+button.framer-R5ksj{appearance:none;-webkit-appearance:none;border:0;background:transparent;color:inherit;font:inherit;padding:0;margin:0}button.framer-R5ksj:focus-visible{outline:2px solid #ae70c4;outline-offset:6px}
+
+.tgen-service-group{display:contents}
+@media(max-width:809px){[data-tge-loader] .framer-1gzzj9w .framer-text{font-size:clamp(18px,5.2vw,32px)!important;line-height:1.2!important}}
+@media(max-width:809px){.framer-1m0qae4{width:100%!important;max-width:100%;white-space:normal!important}.framer-1m0qae4 .framer-text{white-space:normal!important}}
+a[href^="mailto:"]:not(.tgen-email) .framer-text{font-size:clamp(12px,1.15vw,16px)!important;letter-spacing:-.025em!important}
+
+/* Match the authored initial loader panels to their prepaint frame. */
+.framer-pBara .framer-13nc3i2,.framer-pBara .framer-ffupx2{background:#151316!important}

@@ -1,0 +1,18 @@
+/* Width is the maximum of all four cells; animation never changes layout. */
+.tgen-outcome-stack{width:100%;display:flex;flex-direction:column;gap:0}
+.tgen-outcome-stack>section>div{width:100%;font-family:Manrope,sans-serif!important}
+.tgen-outcome-stack,.framer-e3sqjn .framer-3cblkl-container{--token-5cf1b248-1ef3-4269-82ff-9245b25ee4c1:#151316!important;--token-ed49b89a-3f18-4ec5-a7df-c2b9ab94f172:rgba(21,19,22,.12)!important}
+.framer-e3sqjn .framer-1siq50b,.framer-e3sqjn .framer-1ldnz2x,.framer-e3sqjn .framer-1cwonxw{mix-blend-mode:normal!important}
+.tgen-outcome-prefix{color:#151316}
+.tgen-outcome-word{color:#8753a0}
+.tgen-outcomes{display:flex;flex-wrap:wrap;column-gap:.23em;margin:0!important;font-family:Manrope,TGEManrope,sans-serif;font-size:90px;font-weight:600;line-height:1.1;letter-spacing:-.06em;color:#fff}
+.tgen-outcome-prefix{white-space:nowrap}
+.tgen-outcome-window{display:inline-grid;overflow:hidden;vertical-align:bottom;line-height:1.1;padding-bottom:.05em;margin-bottom:-.05em}
+.tgen-outcome-word{grid-area:1/1;white-space:nowrap;transform:translateY(115%);opacity:0;animation:tgen-outcome-roll 12.8s cubic-bezier(.22,.68,0,1) infinite;animation-delay:calc(var(--outcome-index) * -9.6s);animation-play-state:paused}
+.tgen-outcomes[data-active=true] .tgen-outcome-word{animation-play-state:running}
+.tgen-outcomes-sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@keyframes tgen-outcome-roll{0%,19.5%{transform:translateY(0);opacity:1}25%{transform:translateY(-115%);opacity:0}25.01%,94.5%{transform:translateY(115%);opacity:0}100%{transform:translateY(0);opacity:1}}
+@media(max-width:1439px){.tgen-outcomes{font-size:70px}}
+@media(max-width:1199px){.tgen-outcomes{font-size:50px}}
+@media(max-width:809px){.tgen-outcomes{font-size:31px}}
+@media(prefers-reduced-motion:reduce){.tgen-outcome-word{animation:none!important;transform:none!important;opacity:0}.tgen-outcome-word:first-child{opacity:1}}

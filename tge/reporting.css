@@ -1,0 +1,42 @@
+/* Reporting inherits the site's charcoal, Manrope and lavender editorial language. */
+.tge-reporting-editorial{--report-paper:#f2eff3;--report-muted:#bcb5c1;--report-accent:#c1a4d2;--report-line:#49434e;background:#171419;color:var(--report-paper);font-family:Manrope,TGEManrope,sans-serif;padding:100px max(28px,5vw) 64px;scroll-margin-top:56px;isolation:isolate;overflow-anchor:none}
+.tge-reporting-editorial *{box-sizing:border-box}
+.tge-reporting-editorial ::selection{background:var(--report-accent);color:#171419}
+.tge-reporting-editorial .report-heading{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:44px;margin-bottom:76px}
+.tge-reporting-editorial .report-heading>div{grid-column:2 / 4}
+.tge-reporting-editorial .report-heading>p{font-size:11px;line-height:1.6;letter-spacing:.025em;padding-top:12px}
+.tge-reporting-editorial .report-heading h2{font-size:clamp(58px,6.4vw,96px);font-weight:500;line-height:1.02;letter-spacing:-.04em;margin:0 0 28px}
+.tge-reporting-editorial .report-heading h2 span{color:var(--report-accent)}
+.tge-reporting-editorial .report-intro{font-size:16px;line-height:1.6;color:var(--report-muted);max-width:480px}
+.tge-reporting-editorial .report-row{border-top:1px solid var(--report-line)}
+.tge-reporting-editorial .report-row:last-child{border-bottom:1px solid var(--report-line)}
+.tge-reporting-editorial .report-row h3{margin:0}
+.tge-reporting-editorial .report-toggle{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:44px;width:100%;border:0;background:transparent;color:var(--report-paper);text-align:left;padding:27px 0;appearance:none}
+.tge-reporting-editorial .report-name{grid-column:2 / 4;padding-right:70px}
+.tge-reporting-editorial .report-arrow{position:absolute;right:0;top:calc(50% - 24px)}
+.tge-reporting-editorial .report-category{font-size:11px;line-height:1.5;font-weight:400;color:var(--report-muted)}
+.tge-reporting-editorial .report-name{display:block;font-size:clamp(42px,5.15vw,76px);font-weight:500;letter-spacing:-.04em;line-height:1.08;transition:color .35s,transform .65s cubic-bezier(.16,1,.3,1)}
+.tge-reporting-editorial .report-arrow{width:48px;height:48px;display:grid;place-items:center;border:1px solid #645b6c;border-radius:50%;transition:background .4s,border-color .4s,color .4s,transform .65s cubic-bezier(.16,1,.3,1)}
+.tge-reporting-editorial .report-arrow svg{width:21px;height:21px}
+.tge-reporting-editorial .report-toggle[aria-expanded=true] .report-name{color:var(--report-accent)}
+.tge-reporting-editorial .report-toggle[aria-expanded=true] .report-arrow{transform:rotate(90deg);background:var(--report-accent);border-color:var(--report-accent);color:#171419}
+.tge-reporting-editorial .report-toggle:hover .report-name{transform:translateX(10px);color:var(--report-accent)}
+.tge-reporting-editorial .report-toggle:focus-visible{outline:2px solid var(--report-accent);outline-offset:6px}
+.tge-reporting-editorial .report-disclosure{display:grid;grid-template-rows:0fr;transition:grid-template-rows .7s cubic-bezier(.16,1,.3,1);visibility:hidden}
+.tge-reporting-editorial .report-row.is-open .report-disclosure{grid-template-rows:1fr;visibility:visible}
+.tge-reporting-editorial .report-row.is-closing .report-disclosure{visibility:visible}
+.tge-reporting-editorial .report-clip{min-height:0;overflow:hidden}
+.tge-reporting-editorial .report-detail{display:grid;grid-template-columns:1fr 1fr 1fr;gap:44px;padding:6px 0 44px;opacity:0;transform:translateY(16px);transition:opacity .3s,transform .65s cubic-bezier(.16,1,.3,1)}
+.tge-reporting-editorial .report-row.is-open .report-detail{opacity:1;transform:translateY(0);transition-delay:.08s}
+.tge-reporting-editorial .report-explanation{grid-column:2}
+.tge-reporting-editorial .report-explanation h4{font-size:26px;line-height:1.2;font-weight:500;letter-spacing:-.035em;margin:0 0 16px;max-width:300px}
+.tge-reporting-editorial .report-explanation p{color:var(--report-muted);font-size:15px;line-height:1.65;max-width:390px}
+.tge-reporting-editorial .report-measures{list-style:none;padding:0;margin:0}
+.tge-reporting-editorial .report-measures li{font-size:14px;line-height:1.5;padding:13px 0;border-bottom:1px solid var(--report-line);display:flex;align-items:center;justify-content:space-between;gap:16px}
+.tge-reporting-editorial .report-measures li:first-child{padding-top:0}
+.tge-reporting-editorial .report-measures svg{width:18px;height:18px;color:var(--report-accent);flex:none}
+.tge-reporting-editorial .report-footnote{margin:26px 0 0;text-align:right;font-size:12px;line-height:1.6;color:var(--report-muted)}
+@media(min-width:1800px){.tge-reporting-editorial{padding-top:112px;padding-bottom:76px}.tge-reporting-editorial .report-heading{margin-bottom:88px}}
+@media(max-width:900px){.tge-reporting-editorial .report-arrow{width:40px;height:40px;top:calc(50% - 20px)}.tge-reporting-editorial .report-detail{grid-template-columns:1fr 1fr;gap:32px;padding-left:calc(33.333% + 29.333px)}.tge-reporting-editorial .report-explanation{grid-column:1}.tge-reporting-editorial .report-explanation h4{font-size:23px}}
+@media(max-width:600px){.tge-reporting-editorial{padding:64px 24px 40px}.tge-reporting-editorial .report-heading{display:block;margin-bottom:44px}.tge-reporting-editorial .report-heading>p{padding:0;margin-bottom:28px}.tge-reporting-editorial .report-heading h2{font-size:52px;line-height:1.04;margin-bottom:22px}.tge-reporting-editorial .report-intro{font-size:15px}.tge-reporting-editorial .report-toggle{display:block;padding:22px 0}.tge-reporting-editorial .report-category{display:none}.tge-reporting-editorial .report-name{font-size:42px;padding-right:52px}.tge-reporting-editorial .report-detail{grid-template-columns:1fr;gap:25px;padding:6px 0 30px}.tge-reporting-editorial .report-explanation h4{font-size:25px;max-width:260px;margin-bottom:12px}.tge-reporting-editorial .report-explanation p{font-size:14px}.tge-reporting-editorial .report-measures li{font-size:13px;padding:10px 0}.tge-reporting-editorial .report-footnote{text-align:left;font-size:11px;max-width:270px}}
+@media(prefers-reduced-motion:reduce){.tge-reporting-editorial *{transition:none!important;animation:none!important}}

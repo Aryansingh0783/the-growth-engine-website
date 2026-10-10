@@ -1,0 +1,6 @@
+(()=>{'use strict';if(window.__tgenOutcomes)return;window.__tgenOutcomes=true;
+const nodes=new Set();let intersections=null,mutations=null;
+function mount(){document.querySelectorAll('.tgen-outcomes').forEach(node=>{if(nodes.has(node))return;nodes.add(node);if(intersections)intersections.observe(node);else node.dataset.active='true';});for(const node of nodes)if(!node.isConnected){intersections?.unobserve(node);nodes.delete(node);}}
+function start(){if(mutations)return;if('IntersectionObserver'in window)intersections=new IntersectionObserver(entries=>{for(const e of entries)e.target.dataset.active=String(e.isIntersecting&&!document.hidden);},{threshold:.05});mutations=new MutationObserver(mount);mutations.observe(document.documentElement,{childList:true,subtree:true});mount();}
+function stop(){mutations?.disconnect();intersections?.disconnect();mutations=null;intersections=null;for(const node of nodes)node.dataset.active='false';nodes.clear();}
+document.addEventListener('visibilitychange',()=>{if(document.hidden){for(const node of nodes)node.dataset.active='false';}else{stop();start();}});window.addEventListener('pagehide',stop);window.addEventListener('pageshow',start);start();})();
